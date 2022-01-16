@@ -4,8 +4,10 @@ import UserSearch from "../UserSearch";
 function Home() {
   return (
     <div>
+      <center>
       <UserSearch />
       <UserResults />
+      </center>
     </div>
   );
 }
